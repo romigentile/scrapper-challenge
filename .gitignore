@@ -1,0 +1,12 @@
+node_modules/
+dist/
+
+downloads/
+output/
+failed-downloads.json
+
+.env
+.env.*
+
+.DS_Store
+Thumbs.db

@@ -1,0 +1,31 @@
+{
+  "name": "scraper-challenge",
+  "version": "1.0.0",
+  "description": "HTTP scraper in TypeScript for the public PJe consultation of TRF5",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "scraper",
+    "typescript",
+    "axios",
+    "cheerio",
+    "pje",
+    "trf5"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cheerio": "^1.2.0"
+  }
+}
